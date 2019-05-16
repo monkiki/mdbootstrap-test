@@ -5,8 +5,19 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <mdb-btn>Hello world</mdb-btn>
   </div>
 </template>
+
+<script>
+  import {mdbBtn} from 'mdbvue';
+
+  export default {
+    components: {
+      mdbBtn
+    },
+  }
+</script>
 
 <style>
 #app {
